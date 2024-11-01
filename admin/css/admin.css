@@ -1,0 +1,14 @@
+#sf-shortcode-form .sf-text-input {
+	width: 350px;
+	padding: 8px;
+	font-size: 12px;
+}
+
+.chosen-container .search-field input {
+	height: 27px !important;
+}
+
+
+#sf-shortcode-type label {
+	margin-right: 20px;
+}

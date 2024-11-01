@@ -1,0 +1,216 @@
+.superior-faq-category-title {
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+.superior-faq-category-faqs {
+	margin-bottom: 50px !important;
+}
+
+.superior-faq-item {
+	margin-bottom: 15px;
+}
+
+.superior-faq-item .superior-faq-title {
+	margin: 0;
+	cursor: pointer;
+}
+
+.superior-faq-item .superior-faq-icon {
+	margin-right: 10px;
+	font-size: inherit;
+	vertical-align: middle;
+}
+
+.superior-effect-accordion .superior-faq-content,
+.superior-effect-tooltip .superior-faq-content {
+	display: none;
+}
+
+.superior-faq-action-bar {
+	margin-top: 10px;
+	line-height: 20px;
+}
+
+.single .superior-faq-action-bar {
+	margin: 20px 0;
+}
+
+.superior-faq-action-bar .superior-faq-permalink {
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+.superior-faq-voting {
+	float: right;
+	line-height: 20px;
+}
+
+.superior-faq-voting > a,
+.superior-faq-voting > a:hover {
+	font-size: 14px;
+	margin-left: 15px;
+	color: inherit;
+}
+
+.superior-faq-voting > a > i,
+.superior-faq-voting > a:hover > i {
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	-ms-transition: all 200ms ease-out;
+	-o-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
+}
+
+.superior-faq-voting > a > i {
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.superior-faq-voting > a:hover > i {
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+
+.superior-faq-voting > a.superior-faq-vote-up {
+	color: #2ecc71 !important;
+}
+
+.superior-faq-voting > a.superior-faq-vote-down {
+	color: #e74c3c !important;
+}
+
+.superior-faq-voting > a > i {
+	margin-right: 5px;
+}
+
+.superior-faq-back-to-faqs a {
+	text-decoration: underline;
+}
+
+
+/* SIMPLE LAYOUT */
+
+.superior-faq-simple .superior-faq-content {
+	margin-top: 10px;
+}
+
+.superior-faq-simple .superior-faq-padding {
+	padding-left: 30px;
+}
+
+
+/* BOXED LAYOUT */
+
+.superior-faq-boxed .superior-faq-item {
+	border: 2px solid  #e5e5e5;
+}
+
+.superior-faq-boxed .superior-faq-item > * {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.superior-faq-boxed .superior-faq-title {
+	background: #FAFAFA;
+	padding: 15px;
+}
+
+.superior-faq-boxed .superior-faq-content {
+	padding-bottom: 15px;
+}
+
+
+/* SEARCH */
+
+.sf-faq-search {
+	width: 100%;
+	border: 1px solid  #e5e5e5;
+	height: 40px;
+	padding: 0 15px;
+	font-size: 12px;
+	margin: 10px 0;
+}
+
+.smart_autocomplete_container {
+	border: 1px solid  #e5e5e5;
+	cursor: pointer;
+	background-color: #fff;
+	color: #000;
+}
+
+.smart_autocomplete_container > div {
+	padding: 5px;
+}
+
+.smart_autocomplete_highlight {
+	background-color: #f9f9f9;
+}
+
+/* TOOLTIP */
+
+#sf-tooltip-container {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    background: #fff;
+    position: absolute;
+    z-index: 10000;
+    padding: 15px;
+    font-size: 12px;
+    line-height: 20px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#sf-tooltip-container:after /* triangle decoration */ {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -10px;
+}
+
+#sf-tooltip-container.top:after {
+    border-top-color: transparent;
+    border-bottom: 10px solid #fff;
+    top: -20px;
+    bottom: auto;
+}
+
+#sf-tooltip-container.left:after {
+    left: 10px;
+    margin: 0;
+}
+
+#sf-tooltip-container.right:after {
+    right: 10px;
+    left: auto;
+    margin: 0;
+}
+
+
+/* MOST POPULAR */
+
+.superior-most-popular li {
+}
+
+
+/* HELPERS */
+
+.superior-faq-clearfix:before, .superior-faq-clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.superior-faq-clearfix:after { clear: both; }
+.superior-faq-clearfix { zoom: 1; }
